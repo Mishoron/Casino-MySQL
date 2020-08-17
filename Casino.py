@@ -2,10 +2,10 @@ import mysql.connector
 from random import randint
 
 mydb = mysql.connector.connect(
-	host="localhost",
-	user="mishoron",
-	password = "root",
-	database = "test"
+	host="",
+	user="",
+	password = "",
+	database = ""
 )
 cursor = mydb.cursor()
 
